@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*
+    Paleta de Cores:
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+:root {
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+}
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background-color: var(--lilas);
+    height: 10vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: #fff;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: var(--lilas) url(../imagens/pexels.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 150px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
