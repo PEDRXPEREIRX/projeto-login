@@ -15,6 +15,7 @@ Extra large screens, TV – 1201px, and more.
 
     section#login {
         width: 80vw;
+        height: 290px;
     }
 
     section#login > div#imagem {
@@ -37,18 +38,27 @@ Extra large screens, TV – 1201px, and more.
 
     section#login {
         width: 80vw;
+        height: 360px;
     }
 
     section#login > div#imagem {
-        float: left;
-        width: 40%;
+        float: right;
+        width: 60%;
         height: 100vh;
     }
 
     section#login > div#formulario {
-        float: right;
-        width: 60%;
+        float: left;
+        width: 40%;
         height: 100%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
 
@@ -59,17 +69,26 @@ Extra large screens, TV – 1201px, and more.
     
     section#login {
         width: 900px;
+        height: 360px;
     }
 
     section#login > div#imagem {
+        float: right;
+        width: 60%;
+        height: 100vh;
+    }
+
+    section#login > div#formulario {
         float: left;
         width: 40%;
         height: 100vh;
     }
 
-    section#login > div#formulario {
-        float: right;
-        width: 60%;
-        height: 100vh;
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
